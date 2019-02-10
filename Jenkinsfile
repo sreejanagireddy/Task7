@@ -6,7 +6,7 @@ pipeline {
     stages {
       stage('FIRST-JOB'){
         steps{
-    git 'https://github.com/demos-project/neal2.git'
+    git 'https://github.com/sreejanagireddy/Task7.git'
         }
   }
         stage('Example') {
