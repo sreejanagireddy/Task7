@@ -4,7 +4,7 @@ pipeline {
         upstream 'Task1, DevProject1, '
     }
     stages {
-      stage('FIRST-JOB'){
+      stage('Task1'){
         steps{
     git 'https://github.com/sreejanagireddy/Task7.git'
         }
